@@ -1,0 +1,10 @@
+# debian
+
+wget https://install.direct/go.sh
+
+bash go.sh
+
+service v2ray start
+
+# config file
+/etc/v2ray/config.json
