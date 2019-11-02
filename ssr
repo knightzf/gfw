@@ -6,3 +6,7 @@ ss-fly/ss-fly.sh -ssr
 
 # restart ssr
 /etc/init.d/shadowsocks restart
+
+# add logging
+/usr/local/shadowsocks/tcprelay.py:756
+logging.warn('tzf: client %s visiting url: %s', self._client_address[0], result[0])
